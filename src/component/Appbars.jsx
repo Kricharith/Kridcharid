@@ -70,16 +70,16 @@ const Appbars = () => {
                                 open={Boolean(anchorEl)}
                                 onClose={handleMenuClose}
                             >
-                                <MenuItem component={RouterLink} to="/profile" onClick={handleMenuClose}>
+                                <MenuItem component={RouterLink} to="https://kridcharid.github.io/Kridcharid/#/profile" onClick={handleMenuClose}>
                                     Profile
                                 </MenuItem>
-                                <MenuItem component={RouterLink} to="/activities" onClick={handleMenuClose}>
+                                <MenuItem component={RouterLink} to="https://kridcharid.github.io/Kridcharid/#/activities" onClick={handleMenuClose}>
                                     Activities
                                 </MenuItem>
-                                <MenuItem component={RouterLink} to="/certificate" onClick={handleMenuClose}>
+                                <MenuItem component={RouterLink} to="https://kridcharid.github.io/Kridcharid/#/certificate" onClick={handleMenuClose}>
                                     Certificate
                                 </MenuItem>
-                                <MenuItem component={RouterLink} to="/contact" onClick={handleMenuClose}>
+                                <MenuItem component={RouterLink} to="https://kridcharid.github.io/Kridcharid/#/contact" onClick={handleMenuClose}>
                                     Contact
                                 </MenuItem>
                             </Menu>
