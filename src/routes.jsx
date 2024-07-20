@@ -8,11 +8,11 @@ import Contact from './pages/Contact';
 const AppRoutes = () => {
     return (
         <Routes>
-            <Route path="/" element={<Navigate to="/profile" replace />} />
-            <Route path="/profile" element={<Profile />} />
-            <Route path="/activities" element={<Activities />} />
-            <Route path="/certificate" element={<Certificate />} />
-            <Route path="/contact" element={<Contact />} />
+            <Route path="/" element={<Navigate to="https://kridcharid.github.io/Kridcharid/#/profile" replace />} />
+            <Route path="https://kridcharid.github.io/Kridcharid/#/profile" element={<Profile />} />
+            <Route path="https://kridcharid.github.io/Kridcharid/#/activities" element={<Activities />} />
+            <Route path="https://kridcharid.github.io/Kridcharid/#/certificate" element={<Certificate />} />
+            <Route path="https://kridcharid.github.io/Kridcharid/#/contact" element={<Contact />} />
         </Routes>
     );
 };

@@ -8,7 +8,7 @@ const Activities = () => {
         <StyledContainer>
             <Box 
                 sx={{ 
-                    backgroundImage: 'url(/image/ProfileImage4.jpg)', 
+                    backgroundImage: 'url(/kridcharid/image/ProfileImage4.jpg)', 
                     backgroundSize: 'cover', 
                     backgroundPosition: 'center', 
                     width: '100%', 

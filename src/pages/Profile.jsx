@@ -8,7 +8,7 @@ const Profile = () => {
         <StyledContainer>
             <Box 
                 sx={{ 
-                    backgroundImage: 'url(/image/ProfileImage1.jpg)', 
+                    backgroundImage: 'url(https://kridcharid.github.io/Kridcharid/#/image/ProfileImage1.jpg)', 
                     backgroundSize: 'cover', 
                     backgroundPosition: 'center', 
                     width: '100%', 
