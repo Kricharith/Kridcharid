@@ -51,7 +51,7 @@ const Appbars = () => {
                     <Grid container justifyContent="center" alignItems="center">
                         <Grid item>
                             <Box display="flex" justifyContent="center" alignItems="center">
-                                <Link component={RouterLink} to="https://kricharith.github.io/Kridcharid/#/profile" sx={{ pr: 2, pl: 2, color: textColor, textDecoration: 'none' }}>
+                                <Link component={RouterLink} to="/profile" sx={{ pr: 2, pl: 2, color: textColor, textDecoration: 'none' }}>
                                     <Typography variant="h6">
                                         Kridcharid Srikam
                                     </Typography>
@@ -70,16 +70,16 @@ const Appbars = () => {
                                 open={Boolean(anchorEl)}
                                 onClose={handleMenuClose}
                             >
-                                <MenuItem component={RouterLink} to="https://kricharith.github.io/Kridcharid/#/profile" onClick={handleMenuClose}>
+                                <MenuItem component={RouterLink} to="/profile" onClick={handleMenuClose}>
                                     Profile
                                 </MenuItem>
-                                <MenuItem component={RouterLink} to="https://kricharith.github.io/Kridcharid/#/activities" onClick={handleMenuClose}>
+                                <MenuItem component={RouterLink} to="/activities" onClick={handleMenuClose}>
                                     Activities
                                 </MenuItem>
-                                <MenuItem component={RouterLink} to="https://kricharith.github.io/Kridcharid/#/certificate" onClick={handleMenuClose}>
+                                <MenuItem component={RouterLink} to="/certificate" onClick={handleMenuClose}>
                                     Certificate
                                 </MenuItem>
-                                <MenuItem component={RouterLink} to="https://kricharith.github.io/Kridcharid/#/contact" onClick={handleMenuClose}>
+                                <MenuItem component={RouterLink} to="/contact" onClick={handleMenuClose}>
                                     Contact
                                 </MenuItem>
                             </Menu>
