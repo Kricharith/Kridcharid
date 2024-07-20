@@ -5,7 +5,7 @@ import App from './App';
 
 ReactDOM.render(
     <React.StrictMode >
-        <HashRouter basename='/Kridcharid/profile'>
+        <HashRouter basename='/Kridcharid'>
             <App />
         </HashRouter>
     </React.StrictMode>,
