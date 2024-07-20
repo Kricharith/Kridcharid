@@ -51,7 +51,7 @@ const Appbars = () => {
                     <Grid container justifyContent="center" alignItems="center">
                         <Grid item>
                             <Box display="flex" justifyContent="center" alignItems="center">
-                                <Link component={RouterLink} to="/profile" sx={{ pr: 2, pl: 2, color: textColor, textDecoration: 'none' }}>
+                                <Link component={RouterLink} to="https://kricharith.github.io/Kridcharid/#/profile" sx={{ pr: 2, pl: 2, color: textColor, textDecoration: 'none' }}>
                                     <Typography variant="h6">
                                         Kridcharid Srikam
                                     </Typography>

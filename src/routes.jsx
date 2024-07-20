@@ -8,7 +8,7 @@ import Contact from './pages/Contact';
 const AppRoutes = () => {
     return (
         <Routes>
-            <Route path="/" element={<Navigate to="https://kricharith.github.io/Kridcharid/#/profile" replace />} />
+            <Route path="https://kricharith.github.io/Kridcharid/#/" element={<Navigate to="https://kricharith.github.io/Kridcharid/#/profile" replace />} />
             <Route path="https://kricharith.github.io/Kridcharid/#/profile" element={<Profile />} />
             <Route path="https://kricharith.github.io/Kridcharid/#/activities" element={<Activities />} />
             <Route path="https://kricharith.github.io/Kridcharid/#/certificate" element={<Certificate />} />

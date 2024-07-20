@@ -1,4 +1,3 @@
-import { CardGiftcard } from '@mui/icons-material';
 import { Card, CardActions, CardMedia, styled }  from '@mui/material';
 import Button from '@mui/material/Button';
 export const StyledContainer = styled('div')(({ theme }) => ({

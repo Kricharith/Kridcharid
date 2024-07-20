@@ -1,6 +1,5 @@
 import React from "react";
 import { Typography} from '@mui/material';
-import { Security } from "@mui/icons-material";
 const Footer = ()=>{
     return (
         <>
